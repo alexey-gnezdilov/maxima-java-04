@@ -13,6 +13,7 @@ public class Train extends Transport{
         this.isExpress = isExpress;
     }
 
+    @Override
     public float getPrice(City city) {
         return 0;
     }
